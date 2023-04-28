@@ -1,0 +1,62 @@
+
+
+1. What is kernel ?
+	The kernel is the essential foundation of a computer's operating system (OS). It is the core that provides basic services for all other parts of the OS. 
+	It is the main layer between the OS and underlying computer hardware, and it helps with tasks such as process and memory management, file systems, 
+	device control and networking.
+	
+2. Why we create kernel?
+	The kernel is the central manager of these processes. It knows which hardware resources are available and which processes need them. 
+	It then allocates time for each process to use those resources. The kernel is critical to a computer's operation, 
+	and it requires careful protection within the system's memory.
+	
+3. What is library in python?
+	Python has created several open-source libraries, each with its root source. 
+	A library is an initially merged collection of code scripts that can be used iteratively to save time. 
+	It's similar to a physical library in that it holds reusable resources, as the name implies.
+
+	A Python library is also a group of interconnected modules. It contains code bundles that can be reused in a variety of programs. 
+	It simplifies and facilitates Python programming for programmers. Because then we won't have to write the very same code for different programs. 
+	Machine learning, computer science, data visualization, and other fields rely heavily on Python libraries.
+	
+4. What is package in python?
+	A Python package usually consists of several modules. Physically, 
+	a package is a folder containing modules and maybe other folders that themselves may contain more folders and modules. Conceptually, it’s a namespace. 
+	This simply means that a package’s modules are bound together by a package name, by which they may be referenced.
+	
+	Circling back to our earlier definition of a module as reusable, importable code, we note that every package is a module — but not every module is a package. 
+	A package folder usually contains one file named __init__.py that basically tells Python: “Hey, this directory is a package!” The init file may be empty, 
+	or it may contain code to be executed upon package initialization.
+	
+5. What is difference between library and package in python?
+	When developing a large application, you may end up with many different modules that are difficult to manage. 
+	In such a case, you’ll benefit from grouping and organizing your modules. That’s when packages come into play.
+
+	Python packages are basically a directory of a collection of modules. Packages allow the hierarchical structure of the module namespace. 
+	Just like we organize our files on a hard drive into folders and sub-folders, we can organize our modules into packages and subpackages.
+
+	To be considered a package (or subpackage), a directory must contain a file named __init__.py. This file usually includes the initialization code for the corresponding package.
+	
+	A library is an umbrella term referring to a reusable chunk of code. Usually, a Python library contains a collection of related modules and packages. 
+	Actually, this term is often used interchangeably with “Python package” because packages can also contain modules and other packages (subpackages). 
+	However, it is often assumed that while a package is a collection of modules, a library is a collection of packages.
+
+	Oftentimes, developers create Python libraries to share reusable code with the community. To eliminate the need for writing code from scratch, 
+	they create a set of useful functions related to the same area.
+	
+6. how to create a my name in python jupyter(syntax)?
+	To write a program that displays your name in Python
+	Using the print() function:
+	The simplest way to display your name in Python is to use the print() function. 
+	You can simply pass your name as an argument to the function, and it will be displayed on the console
+	
+7. What is difference between "string" and "int" data types in python?
+	An integer is a value that you can perform integer operations on, such as adding, dividing, etc. 
+	Its internal representation is usually chosen to make such operations quick and easy.
+
+	A string is a collection of characters which may be non-numeric and is usually optimised for string operations such as splitting into substring, 
+	internal searches for substrings and joining to other strings. Strings are often larger than integers, and tend to have slower and more complex operations, 
+	many of which are performed in software, rather the hardware operations which are a bigger part of integer operations.
+	
+8. What is "syntax error: EOL error" in python?
+	In Python, we need both quotation marks to get the value. If leaving one of the. quotation marks, it gives us syntax error. EOL error which means end of line, it.
